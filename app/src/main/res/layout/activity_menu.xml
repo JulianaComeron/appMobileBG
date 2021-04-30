@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".MenuActivity" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,20 +17,26 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="258dp"
+            android:layout_height="312dp"
             app:srcCompat="@mipmap/bg_logo_foreground" />
 
-        <Button
-            android:id="@+id/buttonConsultar"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/my_buttons"
-            android:text="Consultar" />
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonConsultar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/my_buttons"
+                android:text="Consultar" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/buttonCadastrar"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="38dp"
             android:background="@drawable/my_buttons"
             android:text="Cadastrar" />
 
