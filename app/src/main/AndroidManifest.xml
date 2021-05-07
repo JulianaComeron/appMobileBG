@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppBG">
         <activity
-            android:name=".SplashActivity"
+            android:name=".controlador.SplashActivity"
             android:label="Tela Splash">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -19,8 +19,8 @@
         </activity>
         <activity android:name=".ConsultarActivity" android:label="Tela Consultar" />
         <activity android:name=".CadastrarActivity" android:label="Tela Cadastrar" />
-        <activity android:name=".LoginActivity" android:label="Tela Login"/>
-        <activity android:name=".MenuActivity">
+        <activity android:name=".controlador.LoginActivity" android:label="Tela Login"/>
+        <activity android:name=".controlador.MenuActivity">
 
         </activity>
     </application>

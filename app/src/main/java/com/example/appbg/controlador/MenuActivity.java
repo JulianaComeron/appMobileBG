@@ -1,8 +1,10 @@
-package com.example.appbg;
+package com.example.appbg.controlador;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.appbg.R;
 
 public class MenuActivity extends AppCompatActivity {
 

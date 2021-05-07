@@ -1,9 +1,12 @@
-package com.example.appbg;
+package com.example.appbg.controlador;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.example.appbg.R;
+import com.example.appbg.controlador.LoginActivity;
 
 import java.util.Timer;
 import java.util.TimerTask;
