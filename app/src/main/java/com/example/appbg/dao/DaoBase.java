@@ -1,4 +1,4 @@
-package com.example.appbg.repositorio;
+package com.example.appbg.dao;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,12 +8,12 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-public abstract class RepositorioBase extends SQLiteOpenHelper {
+public abstract class DaoBase extends SQLiteOpenHelper {
    private static final int DATABASE_VERSION=1;
    public static final String DATABASE_NAME="dbmobilebg";
    private Context context;
 
-    public RepositorioBase(@Nullable Context context){
+    public DaoBase(@Nullable Context context){
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
     @Override

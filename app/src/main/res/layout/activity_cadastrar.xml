@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastrarActivity">
+    tools:context=".CadastroActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,11 +15,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ListView
-                android:id="@+id/listViewTodos"
+            <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="231dp"
-                android:layout_weight="1" />
+                android:layout_height="215dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/bg_logo_foreground" />
 
             <EditText
                 android:id="@+id/editTextNome"
@@ -52,7 +53,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="64dp"
+                android:layout_height="24dp"
                 android:layout_weight="1" />
 
             <LinearLayout
@@ -62,20 +63,20 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/buttonSalvarCadastro"
+                    android:id="@+id/buttonSalvarUsuario"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@color/color_bluelig"
-                    android:text="Salvar" />
+                    android:text="Salvar Usuario" />
 
                 <Button
-                    android:id="@+id/buttonConsultarCadastro"
+                    android:id="@+id/buttonCancelarUsuario"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@color/color_bluelig"
-                    android:text="Consultar" />
+                    android:text="Cancelar" />
             </LinearLayout>
 
         </LinearLayout>

@@ -11,8 +11,20 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            app:srcCompat="@mipmap/bg_logo_foreground" />
+
+        <Button
+            android:id="@+id/buttonNovoUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Novo Usuário" />
+
         <ListView
-            android:id="@+id/listViewConsulta"
+            android:id="@+id/listViewUsuario"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>

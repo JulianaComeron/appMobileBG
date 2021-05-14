@@ -1,23 +1,23 @@
-package com.example.appbg.dominio;
+package com.example.appbg.dto;
 
-public class Usuario {
+public class UsuarioDTO {
     private Long codigo;
     private String login;
     private  String nome;
     private String senha;
 
-    public Usuario() {
+    public UsuarioDTO() {
 
     }
 
-    public Usuario(Long codigo, String login, String nome, String senha) {
+    public UsuarioDTO(Long codigo, String login, String nome, String senha) {
         this.codigo = codigo;
         this.login = login;
         this.nome = nome;
         this.senha = senha;
     }
 
-    public Usuario(String login, String nome, String senha) {
+    public UsuarioDTO(String login, String nome, String senha) {
         this.login = login;
         this.nome = nome;
         this.senha = senha;
